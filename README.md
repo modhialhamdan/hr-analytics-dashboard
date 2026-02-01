@@ -35,27 +35,39 @@ Focuses on understanding employee data and answering practical HR questions rela
 ## Project Structure
 
 hr-analytics-dashboard/
+
 │
 
 ├── app.py
+
 │ # Streamlit dashboard
+
 │
 
 ├── src/
+
 │ ├── 01_load_to_sqlite.py
+
 │ ├── 02_sql_queries.py
+
 │ └── 03_eda_sql_answers.py
+
 │
 
 ├── data/
+
 │ └── HR-Employee-Attrition.csv
+
 │
 
 ├── database/
+
 │ └── hr.db
+
 │
 
 └── README.md
+
 
 Dashboard Features
 - Key HR metrics (KPIs)
@@ -79,4 +91,5 @@ Notes
 - EDA and SQL answers were implemented as a Python script instead of a notebook to avoid kernel issues and keep execution simple and reproducible
 
 - The same database is used by both the analysis scripts and the Streamlit dashboard
+
 
