@@ -35,10 +35,15 @@ Focuses on understanding employee data and answering practical HR questions rela
 ## Project Structure
 
 hr-analytics-dashboard/
+
 │
+
 ├── app.py
+
 │ # Streamlit dashboard
+
 │
+
 ├── src/
 │ ├── 01_load_to_sqlite.py
 │ ├── 02_sql_queries.py
@@ -72,4 +77,5 @@ Some examples of insights extracted from the analysis:
 Notes
 - SQLite is used as a lightweight database to enable SQL-based analysis without requiring a database server
 - EDA and SQL answers were implemented as a Python script instead of a notebook to avoid kernel issues and keep execution simple and reproducible
+
 - The same database is used by both the analysis scripts and the Streamlit dashboard
