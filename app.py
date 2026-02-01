@@ -344,6 +344,3 @@ with action_col2:  # right action panel
             st.rerun()  # rerun app
 
 
-# Footer note
-
-st.caption("Tip: If your charts look empty, try changing filters or verify columns exist in the SQLite table.")
