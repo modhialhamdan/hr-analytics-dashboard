@@ -7,21 +7,10 @@ The idea is simple:
 - Storing it in a SQLite database
 - Analyzing it using Python and SQL
 - Visualizing the results in an interactive dashboard
+- Predicting attrition of employees using Machine Learning
 
 Focuses on understanding employee data and answering practical HR questions related to performance, income, and attrition.
 
-
-## What does this project do?
-- Loads employee data from a CSV file into a SQLite database
-- Performs exploratory data analysis (EDA)
-- Answers HR-related questions using:
-  - Pandas
-  - SQL (SQLite)
-- Provides an interactive Streamlit dashboard where you can:
-  - View key HR KPIs
-  - Filter data by department
-  - Add a new employee
-  - Update an employee’s monthly income
 
 
 ## Tools 
@@ -228,6 +217,7 @@ http://localhost:8501
   
 ## Author
 - Modhi Alhamdan - AI Trainee
+
 
 
 
