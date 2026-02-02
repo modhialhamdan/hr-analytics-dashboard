@@ -168,7 +168,7 @@ with col_right:  # right column
         avg_by_role,
         x="JobRole",
         y="MonthlyIncome",
-        color_discrete_sequence=["#FF8FAB"]  # Pink
+        color_discrete_sequence=["#C74968"]  # Pink
         )
 
         st.plotly_chart(fig2, use_container_width=True)  # display chart
@@ -189,7 +189,7 @@ with col3:  # left column
         attr_counts,
         names="Attrition",
         values="count",
-        color_discrete_sequence=["#C77DFF", "#FF8FAB"]
+        color_discrete_sequence=["#C77DFF", "#C74968"]
         )
 
         st.plotly_chart(fig3, use_container_width=True)  # display chart
@@ -342,5 +342,6 @@ with action_col2:  # right action panel
             st.success("✅ MonthlyIncome updated successfully!")  # success message
             st.cache_data.clear()  # clear cache so refreshed data loads
             st.rerun()  # rerun app
+
 
 
