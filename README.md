@@ -123,7 +123,7 @@ This script is **not connected to Streamlit** and is run offline.
 
 ---
 
-### Run predictions using the trained model (optional)
+### Run predictions using the trained model
 
 This step:
 - Loads the saved model
@@ -159,9 +159,9 @@ http://localhost:8501
 
 ```
 1. load_to_sqlite.py
-2. sql_queries.py        (optional)
+2. sql_queries.py        
 3. train_attrition_model.py
-4. predict_attrition.py  (optional)
+4. predict_attrition.py 
 5. app.py
 ```
 
@@ -217,6 +217,7 @@ http://localhost:8501
   
 ## Author
 - Modhi Alhamdan - AI Trainee
+
 
 
 
