@@ -22,9 +22,9 @@ Focuses on understanding employee data and answering practical HR questions rela
 - scikit-learn
 - joblib
 
-
 ## Project Structure
 
+```
 hr-analytics-dashboard/
 │
 ├── app.py                      # Main Streamlit application
@@ -45,7 +45,15 @@ hr-analytics-dashboard/
 ├── models/
 │   └── attrition_model.joblib  # Saved ML model (optional)
 │
+├── screenshots/
+│   ├── dashboard_main.png
+│   ├── dashboard_charts.png
+│   ├── add_employee.png
+│   └── update_employee.png
+│
 └── README.md
+```
+
 
 ## Environment Setup
 
@@ -217,6 +225,7 @@ http://localhost:8501
   
 ## Author
 - Modhi Alhamdan - AI Trainee
+
 
 
 
