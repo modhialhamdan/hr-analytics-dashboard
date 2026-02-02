@@ -150,7 +150,7 @@ with tab_dashboard:  # dashboard tab start
 
     # ---- Chart 1: Employee count by Department (bar)
     with col_left:  # left column
-        st.markdown("**1) Employee Count by Department**")  # chart title
+        st.markdown("1) Employee Count by Department")  # chart title
         if "Department" in df.columns:  # use full df (not filtered) to see overall distribution
             dept_counts = df.groupby("Department").size().reset_index(name="count")  # group + count
             #fig1 = px.bar(dept_counts, x="Department", y="count")  # bar chart
@@ -167,7 +167,7 @@ with tab_dashboard:  # dashboard tab start
 
     # ---- Chart 2: Average Monthly Income by JobRole (bar)
     with col_right:  # right column
-        st.markdown("**2) Avg Monthly Income by Job Role (Filtered)**")  # chart title
+        st.markdown("2) Avg Monthly Income by Job Role")  # chart title
         if "JobRole" in df_view.columns and "MonthlyIncome" in df_view.columns:  # check columns
             temp = df_view.copy()  # copy
             temp["MonthlyIncome"] = pd.to_numeric(temp["MonthlyIncome"], errors="coerce")  # ensure numeric
@@ -190,7 +190,7 @@ with tab_dashboard:  # dashboard tab start
 
     # ---- Chart 3: Attrition distribution (pie)
     with col3:  # left column
-        st.markdown("**3) Attrition Distribution **")  # chart title
+        st.markdown("3) Attrition Distribution ")  # chart title
         if "Attrition" in df_view.columns:  # check column
             attr_counts = df_view["Attrition"].fillna("Unknown").value_counts().reset_index()  # counts
             attr_counts.columns = ["Attrition", "count"]  # rename columns
@@ -208,7 +208,7 @@ with tab_dashboard:  # dashboard tab start
 
     # ---- Chart 4: Income distribution by Department (box)
     with col4:  # right column
-        st.markdown("**4) Income Distribution by Department **")  # chart title
+        st.markdown("4) Income Distribution by Department")  # chart title
         if "Department" in df_view.columns and "MonthlyIncome" in df_view.columns:  # check columns
             temp2 = df_view.copy()  # copy
             temp2["MonthlyIncome"] = pd.to_numeric(temp2["MonthlyIncome"], errors="coerce")  # ensure numeric
