@@ -32,9 +32,9 @@ hr-analytics-dashboard/
 ├── src/
 │   ├── load_to_sqlite.py       # Loads CSV data into SQLite
 │   ├── sql_queries.py          # SQL exploration / analysis queries
-│   ├── train_attrition_model.py# Trains attrition prediction model (offline)
-│   ├── predict_attrition.py    # Runs predictions using saved model (CLI)
-│   └── utils.py                # Helper / utility functions (if used)
+│   ├── train_attrition_model.py # Trains attrition prediction model
+│   ├── eda_sql_answers.py       # Queries answering the required questions
+│   └── predict_attrition.py    # Runs predictions using saved model
 │
 ├── database/
 │   └── hr.db                   # SQLite database (employees table)
@@ -45,11 +45,6 @@ hr-analytics-dashboard/
 ├── models/
 │   └── attrition_model.joblib  # Saved ML model (optional)
 │
-├── screenshots/
-│   ├── dashboard_main.png
-│   ├── dashboard_charts.png
-│   ├── add_employee.png
-│   └── update_employee.png
 │
 └── README.md
 ```
@@ -179,6 +174,7 @@ http://localhost:8501
 <img width="2069" height="1084" alt="image" src="https://github.com/user-attachments/assets/c4a5c92d-d87e-4e4e-b7b2-695b5591ce92" />
 <img width="2051" height="786" alt="image" src="https://github.com/user-attachments/assets/0ef2bad2-950e-455c-b44e-6ab1c94b7120" />
 <img width="2018" height="819" alt="image" src="https://github.com/user-attachments/assets/c79d41b0-5c8b-424d-b4c9-5b0d4d298fd1" />
+
 ### Tab 2: 
 <img width="2139" height="1210" alt="image" src="https://github.com/user-attachments/assets/391cf9dc-0c80-41a0-8a27-df4518bff5e4" />
 
@@ -225,6 +221,7 @@ http://localhost:8501
   
 ## Author
 - Modhi Alhamdan - AI Trainee
+
 
 
 
