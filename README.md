@@ -1,6 +1,6 @@
 # HR Analytics Dashboard
 
-This project is an HR analytics dashboard  built using Python, SQLite, and Streamlit.
+This project is an HR analytics interactive dashboard  built using Python, SQLite, and Streamlit.
 
 The idea is simple:
 - Taking an HR dataset (IBM HR Analytics)
@@ -91,6 +91,7 @@ Notes
 - EDA and SQL answers were implemented as a Python script instead of a notebook to avoid kernel issues and keep execution simple and reproducible
 
 - The same database is used by both the analysis scripts and the Streamlit dashboard
+
 
 
 
